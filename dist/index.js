@@ -14,7 +14,7 @@ const app = (0, express_1.default)();
 const PORT = process.env.PORT || 5000;
 // middleware
 app.use((0, cors_1.default)({
-    origin: 'http://localhost:5173',
+    origin: 'https://aadhara-frontend.vercel.app',
     credentials: true,
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type'],
