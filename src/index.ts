@@ -12,7 +12,7 @@ const PORT = process.env.PORT ||5000
 // middleware
 
 app.use(cors({
-    origin: 'https://aadhara-frontend.vercel.app/',
+    origin: 'https://aadhara-frontend.vercel.app',
     credentials: true,
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type'],
