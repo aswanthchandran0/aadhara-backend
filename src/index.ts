@@ -18,7 +18,7 @@ app.use(cors({
         'https://aadhara-frontend-git-main-aswanths-projects-d5a5a20b.vercel.app'
     ],
     credentials: true,
-    methods: ['GET', 'POST'],
+    methods: ['GET', 'POST','OPTIONS'],
     allowedHeaders: ['Content-Type'],
 }))
 
